@@ -29,11 +29,11 @@ from datasets import dataset_utils
 
 slim = tf.contrib.slim
 
-_FILE_PATTERN = 'flowers_%s_*.tfrecord'
+_FILE_PATTERN = 'png_%s_*.tfrecord'
 
-SPLITS_TO_SIZES = {'train': 3320, 'validation': 350}
+SPLITS_TO_SIZES = {'train': 1756, 'validation': 350}
 
-_NUM_CLASSES = 5
+_NUM_CLASSES = 2
 
 _ITEMS_TO_DESCRIPTIONS = {
     'image': 'A color image of varying size.',
